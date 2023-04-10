@@ -1,0 +1,99 @@
+
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(143, 140, 140);
+ 
+ background-blend-mode: multiply;
+  font-family: sans-serif;
+  background-image: url("./images/main-qimg-c554f60473f67aae5695746de1023aa0.jpg");
+
+}
+user agent stylesheet body {
+  display: block;
+  margin: 8px;
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin: 0.5em;
+  border-radius: 50%;
+  border:none;
+  height: 2.5em;
+  width: 2.5em;
+}
+input.search-bar{
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 120%;
+  background: #b6b5b5d0;
+}
+
+
+
+
+.container , .container1,.container2{
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+   
+ }
+ .box, .box1{
+   width: 250px;
+   margin: 0 10px;
+   color: rgb(255, 255, 255);
+   
+   box-shadow: 0 0 20px 2px rgba(19, 17, 17, 0.1);
+   transition: 1s;
+   text-align: center;
+ }
+ 
+ .box img, .box1 img{
+   display: block;
+   width: 100%;
+   border-radius: 5px;
+   
+ }
+ 
+ 
+ .box P,.box1 P{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: large;
+   font-weight: 700;
+ }
+ 
+ 
+ .box:hover,.box1:hover{
+ transform: scale(1.3);
+ z-index: 2 ;
+ }
+ .reci{
+  background-color: rgb(39, 37, 37);
+  background-image: url(./images/doodle.jpg);
+  height:25vh;
+  width: 100rem;
+  background-blend-mode: multiply;
+  color: white;
+  font-size: 5.5vw;
+  padding: 5%;
+  text-align: center;
+ }
+ .receipe{
+  color: aliceblue;
+
+  font-size: 2vw;
+  padding: 5%;
+  text-align: right;
+ }
